@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="Dashboard"/>
+        <item
+            android:id="@+id/nav_moodTrack"
+            android:title="Mood Track"/>
+
+        <item
+            android:id="@+id/nav_debitApps"
+            android:title="Debit Apps"
+            />
+
+        <item
+            android:id="@+id/nav_creditActivities"
+            android:title="Credit Activities"/>
+
+        <item
+            android:id="@+id/nav_habits"
+            android:title="Habits"/>
+        <item
+            android:id="@+id/nav_transaction"
+            android:title="Transaction history"/>
+        <item
+            android:title="Statistics"
+            android:id="@+id/nav_stats"/>
+
+
+    </group>
+</menu>
