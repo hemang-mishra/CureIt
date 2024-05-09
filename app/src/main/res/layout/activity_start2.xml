@@ -14,7 +14,7 @@
     android:textStyle="bold"
 
     android:background="@color/purple_200"
-    tools:context=".StartActivity">
+    tools:context=".presentation.StartActivity">
 
 
 

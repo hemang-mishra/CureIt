@@ -60,5 +60,6 @@
     <string name="title_activity_auth">AuthActivity</string>
     <string name="title_activity_feedback">FeedbackActivity</string>
     <string name="title_activity_mood_track">MoodTrackActivity</string>
+    <string name="title_activity_mood">MoodActivity</string>
 
 </resources>

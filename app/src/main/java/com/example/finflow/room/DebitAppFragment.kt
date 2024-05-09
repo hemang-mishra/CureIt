@@ -1,6 +1,7 @@
 package com.example.finflow.room
 
 import android.app.Dialog
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
@@ -21,6 +22,7 @@ import com.example.finflow.databinding.ActivityMainBinding
 import com.example.finflow.databinding.FragmentDebitAppBinding
 import com.example.finflow.debitAppLogic.Logic
 import com.example.finflow.goals.GoalEntity
+import com.example.finflow.mood.MoodActivity
 
 class DebitAppFragment : Fragment() {
 
@@ -53,7 +55,7 @@ class DebitAppFragment : Fragment() {
         binding.timePickerForDebitApps.maxValue = 90
 
         clickListeners()
-
+        navigateToMoodActivity()
         return binding.root
     }
 
@@ -67,6 +69,7 @@ class DebitAppFragment : Fragment() {
 
         binding.creditButton.setOnClickListener(){
             viewModel.use(binding.timePickerForDebitApps.value.toLong())
+            navigateToMoodActivity()
         }
     }
     private fun initRecyclerView(){
@@ -168,5 +171,10 @@ class DebitAppFragment : Fragment() {
                     Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
+    fun navigateToMoodActivity(){
+        val intent = Intent(requireContext(), MoodActivity::class.java)
+        startActivity(intent)
     }
 }

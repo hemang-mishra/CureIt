@@ -1,24 +1,15 @@
 package com.example.finflow.goals
 
 
-import CountdownManager
-import NotificationHelper
-import android.app.NotificationChannel
 import android.content.Context
-import android.content.Intent
-import android.health.connect.datatypes.units.Length
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.databinding.Bindable
 import androidx.databinding.BindingAdapter
 import androidx.databinding.Observable
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.transition.Visibility
-import com.example.finflow.FeedbackActivity
 import com.example.finflow.debitAppLogic.Calculations
 import com.example.finflow.debitAppLogic.Logic
 import com.example.finflow.transactionHistory.TransEntity
