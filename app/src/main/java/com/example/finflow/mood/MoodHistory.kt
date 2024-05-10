@@ -3,6 +3,7 @@ package com.example.finflow.mood
 import android.os.Build
 import android.util.Log
 import androidx.annotation.RequiresApi
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -35,6 +36,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import com.example.finflow.debitAppLogic.Calculations
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
@@ -103,6 +105,9 @@ fun MoodHistory(navController: NavController) {
                         text = "Select your mood",
                         style = MaterialTheme.typography.headlineSmall, modifier =
                         Modifier.padding(horizontal = 16.dp)
+                            .clickable {
+                                navController.navigate(MoodDestinations.labelList.route)
+                            }
                     )
                 }
                 items(labels.size) { index ->
@@ -203,14 +208,15 @@ fun MoodHistory(navController: NavController) {
                                 id = getTime(),
                                 avgMoodIntensity = moodIntensity,
                                 thoughts = thoughts,
-                                change = "",
+                                change = change,
                                 date = getDate(),
                                 time = getTime(),
                                 moodLabels = labels.filter { it.name in selectedSet }
                                     .toMutableList()
                             )
                             viewModel.insertAMoodHistory(moodHistory)
-//                            Calculations(context).creditCalculations(60,300.0F)
+
+                            Calculations(context).creditCalculations(60,300.0F)
                             navController.navigate(MoodDestinations.success.route)
                         },
                     ) {
