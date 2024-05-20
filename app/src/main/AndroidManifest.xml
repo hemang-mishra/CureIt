@@ -18,6 +18,17 @@
         android:theme="@style/Theme.FinFlow"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FinFlow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".mood.MoodActivity"
             android:exported="false"
             android:label="@string/title_activity_mood"
@@ -42,11 +53,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".presentation.MainActivity"
-            android:exported="true"
-            android:label="@string/title_activity_main"
-            android:theme="@style/Theme.FinFlow" />
         <activity
             android:name=".presentation.HabitsActivity"
             android:exported="true"

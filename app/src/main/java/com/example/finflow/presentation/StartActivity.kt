@@ -19,7 +19,6 @@ import com.example.finflow.databinding.NavHeaderBinding
 import com.example.finflow.debitAppLogic.Calculations
 import com.example.finflow.debitAppLogic.Logic
 import com.example.finflow.goals.GoalsFragment
-import com.example.finflow.moodStatistics.MoodTrack
 import com.example.finflow.startActivity.StartActivityViewModel
 import com.example.finflow.startActivity.StartActivityViewModelFactory
 import com.example.finflow.statistics.StatisticsFragment
@@ -47,12 +46,10 @@ class StartActivity : AppCompatActivity() {
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
-//        val btn : FloatingActionButton = binding.floatingButton
         binding.constraintLayout3.setOnClickListener() {
             drawerLayout.open()
         }
 
-      //  Calculations(this).saveNewBalanceInSharedPref(0.0F)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         replaceFragment(DashboardFragment(),"Dashboard Fragment")
@@ -69,8 +66,6 @@ class StartActivity : AppCompatActivity() {
 
                     R.id.nav_transaction ->{drawerLayout.closeDrawers()
                         replaceFragment(TransactionFragment(),it.title.toString())
-//                        val intent = Intent(this, TransactionActivity::class.java)
-//                        startActivity(intent)
                     }
 
                     R.id.nav_debitApps ->{
@@ -95,10 +90,6 @@ class StartActivity : AppCompatActivity() {
                       replaceFragment(StatisticsFragment(15),it.title.toString())
                   }
 
-                  R.id.nav_moodTrack ->{
-                      drawerLayout.closeDrawers()
-                      replaceFragment(MoodTrack(),it.title.toString())
-                  }
                 }
 
             true
@@ -107,18 +98,12 @@ class StartActivity : AppCompatActivity() {
             R.layout.nav_header, navView.getHeaderView(0) as ViewGroup?, false)
         navView.addHeaderView(navHeaderBinding.root)
 
-        //
-
-// Printing the balance in the console
         val sharedPref: SharedPreferences =
             this.getSharedPreferences(Calculations(this).SHARED_PREF_NAME, MODE_PRIVATE)
         viewModel = ViewModelProvider(this,StartActivityViewModelFactory(sharedPref,this)).get(StartActivityViewModel::class.java)
 
         viewModel.getMyLiveData().observe(this) { newValue ->
             navHeaderBinding.balanceNavMenu.text = Logic().formatAmountInCrores(newValue)
-
-            //Practising firebase here
-//            fdatabase.child("Balance").setValue(newValue)
         }
 
         syncAmount()

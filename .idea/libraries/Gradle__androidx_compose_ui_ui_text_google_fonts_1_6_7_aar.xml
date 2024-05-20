@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.ui:ui-text-google-fonts:1.6.7@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/e294d15c52f5497d8bde58e5538435dc/transformed/ui-text-google-fonts-1.6.7/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/e294d15c52f5497d8bde58e5538435dc/transformed/ui-text-google-fonts-1.6.7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/e294d15c52f5497d8bde58e5538435dc/transformed/ui-text-google-fonts-1.6.7/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.compose.ui/ui-text-google-fonts/1.6.7/69e494ca1a839ee0eb1c7f92a20300a2d00ad85a/ui-text-google-fonts-1.6.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
