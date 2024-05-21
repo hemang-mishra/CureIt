@@ -171,4 +171,6 @@ dependencies {
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.0" )
 
     implementation("androidx.compose.material:material-icons-extended-android:1.6.7")
+
+    implementation("io.coil-kt:coil-compose:2.6.0")
 }

@@ -154,7 +154,7 @@ fun SignInUsingEmail(navController: NavController) {
                 isLoading = true
                 EmailAuthentication().signInWithEmail(email, password, context,
                     onSuccess = {
-                        onSignInSuccessful(context,navController)
+                        onSignInSuccessful(navController)
                         isLoading = false
                     },
                     onFailure = {
@@ -266,7 +266,7 @@ fun SignInUsingEmail(navController: NavController) {
                     EmailAuthentication().signUpWithEmail(email, password, context,
                         onSuccess = {
                             isLoading = false
-                            onSignInSuccessful(context,navController)
+                            onSignInSuccessful(navController)
                         },
                         onFailure = {
                             isLoading = false
@@ -466,6 +466,6 @@ fun DividerWithText(text: String = "Or"){
     }
 }
 
-fun onSignInSuccessful(context: Context,navController: NavController){
-    signInToDashboard(context)
+fun onSignInSuccessful(navController: NavController){
+    navController.navigate(Destinations.MainScreen.route)
 }
