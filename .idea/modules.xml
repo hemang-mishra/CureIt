@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.androidTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.androidTest~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.unitTest~1.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CureIt.FinFlow.app.unitTest~1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FinFlow.iml" filepath="$PROJECT_DIR$/.idea/modules/FinFlow.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FinFlow.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FinFlow.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FinFlow.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FinFlow.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FinFlow.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FinFlow.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FinFlow.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FinFlow.app.unitTest.iml" />
     </modules>
   </component>
 </project>

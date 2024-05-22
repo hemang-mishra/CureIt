@@ -4,8 +4,6 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.finflow.room.DebitApp
-import com.example.finflow.room.DebitAppDAO
 
 @Database(entities = [GoalEntity::class], version = 1)
 abstract class GoalDatabase : RoomDatabase(){

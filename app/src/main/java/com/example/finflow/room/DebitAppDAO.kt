@@ -10,17 +10,17 @@ import androidx.room.Update
 @Dao
 interface DebitAppDAO {
     @Insert
-    suspend fun insert(debit: DebitApp): Long
+    suspend fun insert(debit: EnjoyEntity): Long
 
     @Update
-    suspend fun updateDebit(debit: DebitApp)
+    suspend fun updateDebit(debit: EnjoyEntity)
 
     @Delete
-    suspend fun deleteDebit(debit: DebitApp)
+    suspend fun deleteDebit(debit: EnjoyEntity)
 
     @Query("DELETE FROM DebitApps")
     suspend fun deleteAll()
 
     @Query("SELECT * FROM DebitApps ORDER BY freq DESC")
-    fun getAllAppsInDB(): LiveData<List<DebitApp>>
+    fun getAllAppsInDB(): LiveData<List<EnjoyEntity>>
 }

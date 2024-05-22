@@ -6,10 +6,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.finflow.R
-import com.example.finflow.databinding.CardItemBinding
 import com.example.finflow.databinding.CardItemGoalsBinding
 import com.example.finflow.debitAppLogic.Logic
-import com.example.finflow.room.DebitApp
 
 class GoalsAdapter(private  val appList: List<GoalEntity>,
                           private val clickListener:(GoalEntity)-> Unit):RecyclerView.Adapter<MyGoalsViewHolder>() {

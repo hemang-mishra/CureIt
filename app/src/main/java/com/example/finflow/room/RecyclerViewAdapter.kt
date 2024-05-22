@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.finflow.R
 import com.example.finflow.databinding.CardItemBinding
 
-class RecyclerViewAdapter(private  val appList: List<DebitApp>,
-                          private val clickListener:(DebitApp)-> Unit):RecyclerView.Adapter<MyDebitAppViewHolder>() {
+class RecyclerViewAdapter(private  val appList: List<EnjoyEntity>,
+                          private val clickListener:(EnjoyEntity)-> Unit):RecyclerView.Adapter<MyDebitAppViewHolder>() {
 
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyDebitAppViewHolder
@@ -30,13 +30,13 @@ class RecyclerViewAdapter(private  val appList: List<DebitApp>,
 
 class MyDebitAppViewHolder(val binding: CardItemBinding): RecyclerView.ViewHolder(binding.root){
 
-    fun bind(debitApp: DebitApp, clickListener:(DebitApp)-> Unit){
-        binding.outputName.text = debitApp.name
-        binding.ouputDesc.text = debitApp.desc
-        binding.outputRate.text = debitApp.rate.toString()
-        binding.printFreq.text = debitApp.freq.toString()
+    fun bind(enjoyEntity: EnjoyEntity, clickListener:(EnjoyEntity)-> Unit){
+        binding.outputName.text = enjoyEntity.name
+        binding.ouputDesc.text = enjoyEntity.desc
+        binding.outputRate.text = enjoyEntity.rate.toString()
+        binding.printFreq.text = enjoyEntity.freq.toString()
         binding.listDebitApp.setOnClickListener(){
-            clickListener(debitApp)
+            clickListener(enjoyEntity)
         }
     }
 }

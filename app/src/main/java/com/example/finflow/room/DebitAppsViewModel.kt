@@ -1,10 +1,7 @@
 package com.example.finflow.room
 
-import CountdownManager
 import NotificationHelper
-import android.app.NotificationChannel
 import android.content.Context
-import android.health.connect.datatypes.units.Length
 import android.util.Log
 import android.widget.Toast
 import androidx.databinding.Bindable
@@ -25,7 +22,7 @@ class DebitAppsViewModel(private val repository: DebitAppsRepository ): ViewMode
     lateinit var contextOfMain : Context
     lateinit var contextOfApplicaton:Context
      var isUpdateOrDelete = false
-     lateinit var userToUpdateOrDelete: DebitApp
+     lateinit var userToUpdateOrDelete: EnjoyEntity
 
     @Bindable
     val inputName = MutableLiveData<String?>()
@@ -63,7 +60,7 @@ class DebitAppsViewModel(private val repository: DebitAppsRepository ): ViewMode
             val desc = inputDesc.value!!
             val rate2 = rate.value!!
             val freq = inputfreq.value!!
-            insert(DebitApp(0,name,desc,rate2.toFloat(), freq = freq.toInt()))//TODO(Why we have used 0 here for id)
+            insert(EnjoyEntity(0,name,desc,rate2.toFloat(), freq = freq.toInt()))//TODO(Why we have used 0 here for id)
 
             inputName.value = null
             inputDesc.value = null
@@ -73,8 +70,8 @@ class DebitAppsViewModel(private val repository: DebitAppsRepository ): ViewMode
     }
 
 
-    fun insert(debitApp: DebitApp) = viewModelScope.launch {
-        repository.insert(debitApp)
+    fun insert(enjoyEntity: EnjoyEntity) = viewModelScope.launch {
+        repository.insert(enjoyEntity)
     }
 
 
@@ -122,8 +119,8 @@ class DebitAppsViewModel(private val repository: DebitAppsRepository ): ViewMode
         }
     }
 
-    fun update(debitApp: DebitApp)= viewModelScope.launch {
-        repository.update(debitApp)
+    fun update(enjoyEntity: EnjoyEntity)= viewModelScope.launch {
+        repository.update(enjoyEntity)
         //After updating we are resetting all the variables and making them null
 
         inputDesc.value = null
@@ -137,8 +134,8 @@ class DebitAppsViewModel(private val repository: DebitAppsRepository ): ViewMode
         clearAllOrDeleteButton.value = "Clear All"
     }
 
-    fun delete(debitApp: DebitApp)= viewModelScope.launch {
-        repository.delete(debitApp)
+    fun delete(enjoyEntity: EnjoyEntity)= viewModelScope.launch {
+        repository.delete(enjoyEntity)
 
         inputDesc.value = null
         inputName.value = null
@@ -151,13 +148,13 @@ class DebitAppsViewModel(private val repository: DebitAppsRepository ): ViewMode
     }
 
 
-    fun initUpdateOrDelete(debitApp: DebitApp){
-        inputName.value = debitApp.name
-        inputDesc.value = debitApp.desc
-        rate.value = debitApp.rate.toString()
-        inputfreq.value = debitApp.freq.toString()
+    fun initUpdateOrDelete(enjoyEntity: EnjoyEntity){
+        inputName.value = enjoyEntity.name
+        inputDesc.value = enjoyEntity.desc
+        rate.value = enjoyEntity.rate.toString()
+        inputfreq.value = enjoyEntity.freq.toString()
         isUpdateOrDelete = true
-        userToUpdateOrDelete = debitApp
+        userToUpdateOrDelete = enjoyEntity
         saveOrUpdateButton.value = "Update"
         clearAllOrDeleteButton.value = "Delete"
     }

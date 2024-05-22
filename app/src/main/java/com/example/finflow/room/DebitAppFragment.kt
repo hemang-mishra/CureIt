@@ -18,10 +18,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.finflow.R
-import com.example.finflow.databinding.ActivityMainBinding
 import com.example.finflow.databinding.FragmentDebitAppBinding
-import com.example.finflow.debitAppLogic.Logic
-import com.example.finflow.goals.GoalEntity
 import com.example.finflow.mood.MoodActivity
 
 class DebitAppFragment : Fragment() {
@@ -82,11 +79,11 @@ class DebitAppFragment : Fragment() {
         viewModel.debitApps.observe(requireActivity(), Observer {
             binding.recyclerView.adapter = RecyclerViewAdapter(
                 it
-            ) { selectedItem: DebitApp -> listItemClicked(selectedItem) }
+            ) { selectedItem: EnjoyEntity -> listItemClicked(selectedItem) }
         })
     }
 
-    private fun listItemClicked(selectedItem: DebitApp){
+    private fun listItemClicked(selectedItem: EnjoyEntity){
         // Toast.makeText(this, "Selected Item is ${selectedItem.name}",Toast.LENGTH_SHORT).show()
         viewModel.initUpdateOrDelete(selectedItem)
 //        dialogueBoxUpdateOpener(selectedItem)
@@ -94,7 +91,7 @@ class DebitAppFragment : Fragment() {
 
     }
 
-    private fun dialogueBoxUpdateOpener(selectedItem: DebitApp){
+    private fun dialogueBoxUpdateOpener(selectedItem: EnjoyEntity){
         val customDialog = Dialog(requireContext())
         customDialog.setContentView(R.layout.dialgoue_box_update)
 
@@ -164,7 +161,7 @@ class DebitAppFragment : Fragment() {
                 val name = name.text.toString()
                 val rate = numberPicker.value.toString().toFloat() * step
                 val description = description.text.toString()
-                viewModel.insert(DebitApp(0,name,description,rate,0))
+                viewModel.insert(EnjoyEntity(0,name,description,rate,0))
                 customDialog.dismiss()
             }else{
                 Toast.makeText(activity,"Name and description must be valid and Rate should be greater than 0",

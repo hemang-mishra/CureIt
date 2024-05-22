@@ -11,6 +11,7 @@ import androidx.annotation.RequiresApi
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.finflow.MainViewModel
 import com.example.finflow.presentation.destinations.Destinations
 import com.example.finflow.presentation.login.ForgotPassword
 import com.example.finflow.presentation.login.SignInUI
@@ -27,6 +28,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AppTheme {
+                val viewModel = MainViewModel()
                 val navController = rememberNavController()
                 NavHost(
                     navController = navController, startDestination = if (alreadySignedIn)
@@ -43,7 +45,7 @@ class MainActivity : ComponentActivity() {
                         ForgotPassword(navController = navController)
                     }
                     composable(Destinations.MainScreen.route) {
-                        MainScreen(navController = navController)
+                        MainScreen(navController = navController, viewModel = viewModel)
                     }
                 }
             }
