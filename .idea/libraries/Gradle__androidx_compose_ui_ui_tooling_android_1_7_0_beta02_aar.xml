@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.ui:ui-tooling-android:1.7.0-beta02@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5a88190fcedc4481ace2d6d6d0518cc8/transformed/ui-tooling-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5a88190fcedc4481ace2d6d6d0518cc8/transformed/ui-tooling-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5a88190fcedc4481ace2d6d6d0518cc8/transformed/ui-tooling-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.ui/ui-tooling-android/1.7.0-beta02/46a940d645c056024e279b4de67f3c236e51cff1/ui-tooling-1.7.0-beta02-samples-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.ui/ui-tooling-android/1.7.0-beta02/edb35c876385bca1ef6c96e22b84d52f459ae8/ui-tooling-android-1.7.0-beta02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

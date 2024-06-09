@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:lottie:6.4.1@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/21fef82a6cfe60eb2e85b12d37fb9891/transformed/lottie-6.4.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/21fef82a6cfe60eb2e85b12d37fb9891/transformed/lottie-6.4.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/21fef82a6cfe60eb2e85b12d37fb9891/transformed/lottie-6.4.1/res" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/21fef82a6cfe60eb2e85b12d37fb9891/transformed/lottie-6.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/com.airbnb.android/lottie/6.4.1/99a3803ea20ac9b6edc43ec7d41a30c4e7b2e358/lottie-6.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/com.airbnb.android/lottie/6.4.1/8093787df4aba6bbad9a9bfe7371712cf8b29173/lottie-6.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

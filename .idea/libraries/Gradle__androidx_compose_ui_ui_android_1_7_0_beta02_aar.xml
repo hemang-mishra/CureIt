@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.ui:ui-android:1.7.0-beta02@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5219106e2b5e400e6ea4430e177e8d3f/transformed/ui-release/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5219106e2b5e400e6ea4430e177e8d3f/transformed/ui-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5219106e2b5e400e6ea4430e177e8d3f/transformed/ui-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5219106e2b5e400e6ea4430e177e8d3f/transformed/ui-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.ui/ui-android/1.7.0-beta02/28bcf1977e634610892bc9334bcef44c0d644099/ui-1.7.0-beta02-samples-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.ui/ui-android/1.7.0-beta02/9261e2bce4d6c3504c8285ed8bac8854cfe91fd0/ui-android-1.7.0-beta02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.runtime:runtime-saveable-android:1.7.0-beta02@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/481061d7efd76b6f97d0b05e5d53317a/transformed/runtime-saveable-release/res" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/481061d7efd76b6f97d0b05e5d53317a/transformed/runtime-saveable-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/481061d7efd76b6f97d0b05e5d53317a/transformed/runtime-saveable-release/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-saveable-android/1.7.0-beta02/f455c0e1f32983bec40d871459943835e3d10c96/runtime-saveable-1.7.0-beta02-samples-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-saveable-android/1.7.0-beta02/2db055bc54471c10b9696d85a59b517aee3a909/runtime-saveable-android-1.7.0-beta02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-compose:2.8.0-beta02@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bacb8d88fa43e03f3bb2b386922fa6e7/transformed/navigation-compose-2.8.0-beta02/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bacb8d88fa43e03f3bb2b386922fa6e7/transformed/navigation-compose-2.8.0-beta02/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bacb8d88fa43e03f3bb2b386922fa6e7/transformed/navigation-compose-2.8.0-beta02/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.navigation/navigation-compose/2.8.0-beta02/8c46c09511fa0ab7d128d936866e09ed5fd6332d/navigation-compose-2.8.0-beta02-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.navigation/navigation-compose/2.8.0-beta02/a33e21c92dc06eec60be339be6ea51e98dbaeedc/navigation-compose-2.8.0-beta02-samples-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

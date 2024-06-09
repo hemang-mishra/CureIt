@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/7fa97a0e408dbb5f36c3a462f614b7cd/transformed/lifecycle-viewmodel-compose-release/res" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/7fa97a0e408dbb5f36c3a462f614b7cd/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/7fa97a0e408dbb5f36c3a462f614b7cd/transformed/lifecycle-viewmodel-compose-release/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-compose-android/2.8.1/26dba82e6bc7b31cfa1188f58d1f320ec4c6e6ed/lifecycle-viewmodel-compose-android-2.8.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-compose-android/2.8.1/191230278f5a132d12b0e9aa6b89b72ab83336a2/lifecycle-viewmodel-compose-2.8.1-samples-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

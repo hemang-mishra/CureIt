@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:databinding-common:8.5.0-rc01" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="androidx.databinding" artifactId="databinding-common" version="8.5.0-rc01" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.databinding/databinding-common/8.5.0-rc01/2be3530b78477835e69dce953b17adc1dbc5c6fa/databinding-common-8.5.0-rc01.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.databinding/databinding-common/8.5.0-rc01/11a1cbee1a967c4db030fd5fbf71656ca4dd86c3/databinding-common-8.5.0-rc01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

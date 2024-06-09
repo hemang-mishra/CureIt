@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.compose.runtime:runtime-android:1.7.0-beta02@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/17b30872fe5308c6cdfbd54e69f7bd3b/transformed/runtime-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/17b30872fe5308c6cdfbd54e69f7bd3b/transformed/runtime-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/17b30872fe5308c6cdfbd54e69f7bd3b/transformed/runtime-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-android/1.7.0-beta02/d2df3dc588a4a4b55270410d282cf465375a5d7/runtime-1.7.0-beta02-samples-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-android/1.7.0-beta02/be3f2e53f58dd36a2caf5abe0fefcc7df75335f5/runtime-android-1.7.0-beta02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
