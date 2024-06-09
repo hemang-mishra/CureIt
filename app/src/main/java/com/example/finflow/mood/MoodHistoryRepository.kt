@@ -15,6 +15,8 @@ class MoodHistoryRepository(date: String) {
         .collection("moodHistoryDates").document(date).collection("moodHistory")
     private val collection_day = db.collection("user").document(user)
         .collection("moodHistoryDates")
+//    val movieList = listOf<String>()
+//    movieList.add("hi")
 
     suspend fun getAllMoodHistoryFromDb(): Flow<List<MoodHistoryEntity>> = flow {
         val snapshot = collection.get().await()
@@ -23,11 +25,11 @@ class MoodHistoryRepository(date: String) {
         emit(moodHistory)
     }
 
-    private suspend fun insertAMoodHistory(moodHistory: MoodHistoryEntity){
+    private suspend fun insertAMoodHistory(moodHistory: MoodHistoryEntity) {
         collection.document(moodHistory.id.toString()).set(moodHistory).await()
     }
 
-    suspend fun updateAMoodHistory(moodHistory: MoodHistoryEntity){
+    suspend fun updateAMoodHistory(moodHistory: MoodHistoryEntity) {
         collection.document(moodHistory.id.toString()).update(
             mapOf(
                 "id" to moodHistory.id,
@@ -41,26 +43,26 @@ class MoodHistoryRepository(date: String) {
         ).await()
     }
 
-    suspend fun deleteAMoodHistory(moodHistory: MoodHistoryEntity){
+    suspend fun deleteAMoodHistory(moodHistory: MoodHistoryEntity) {
         collection.document(moodHistory.id.toString()).delete().await()
     }
 
-    suspend fun insertWithUpdate(moodHistory: MoodHistoryEntity){
-        var events : List<MoodHistoryEntity> = emptyList()
-        getAllMoodHistoryFromDb().collect{
+    suspend fun insertWithUpdate(moodHistory: MoodHistoryEntity) {
+        var events: List<MoodHistoryEntity> = emptyList()
+        getAllMoodHistoryFromDb().collect {
             events = it
             var sum = 0.0F
-            events.forEach{event->
+            events.forEach { event ->
                 sum += event.avgMoodIntensity
             }
-            val avg = (sum + moodHistory.avgMoodIntensity)/(events.size + 1)
-            updateAvg(avg,moodHistory.date)
+            val avg = (sum + moodHistory.avgMoodIntensity) / (events.size + 1)
+            updateAvg(avg, moodHistory.date)
             updateLastMood(moodHistory)
             insertAMoodHistory(moodHistory)
         }
     }
 
-    suspend fun updateAvg(avg:Float,date: String){
+    suspend fun updateAvg(avg: Float, date: String) {
         collection_day.document(date).update(
             mapOf(
                 "Average" to avg
@@ -74,16 +76,16 @@ class MoodHistoryRepository(date: String) {
         }.await()
     }
 
-    suspend fun getAvg(date: String): Float{
+    suspend fun getAvg(date: String): Float {
         val snapshot = collection_day.document(date).get().await()
         val avg = snapshot.getDouble("Average")
         if (avg != null) {
             return avg.toFloat()
-        }else
+        } else
             return 0.0F
     }
 
-    suspend fun updateLastMood(moodHistory: MoodHistoryEntity){
+    suspend fun updateLastMood(moodHistory: MoodHistoryEntity) {
         collection_day.document(moodHistory.date).update(
             mapOf(
                 "Last Mood" to moodHistory.avgMoodIntensity
@@ -99,7 +101,7 @@ class MoodHistoryRepository(date: String) {
 
     }
 
-    suspend fun getLastMood(date:String): Float{
+    suspend fun getLastMood(date: String): Float {
         val snapshot = collection_day.document(date).get().await()
         val lastAvg = snapshot.getDouble("Last Mood")
         if (lastAvg != null) {
@@ -108,7 +110,7 @@ class MoodHistoryRepository(date: String) {
         return 0.0F
     }
 
-    suspend fun initialDateDocument(){
+    suspend fun initialDateDocument() {
         collection_day.document("2021-01-01").set(
             mapOf(
                 "Init" to 0
