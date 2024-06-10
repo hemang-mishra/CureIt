@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-process:2.8.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bf2ca10da78b2881e8194e563d65dab1/transformed/lifecycle-process-2.8.1/res" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bf2ca10da78b2881e8194e563d65dab1/transformed/lifecycle-process-2.8.1/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bf2ca10da78b2881e8194e563d65dab1/transformed/lifecycle-process-2.8.1/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/358733ef98f56d5768dd44b882b11f9c/transformed/lifecycle-process-2.8.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/358733ef98f56d5768dd44b882b11f9c/transformed/lifecycle-process-2.8.1/res" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/358733ef98f56d5768dd44b882b11f9c/transformed/lifecycle-process-2.8.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

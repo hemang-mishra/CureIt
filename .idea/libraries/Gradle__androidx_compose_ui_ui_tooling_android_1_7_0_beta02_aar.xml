@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-tooling-android:1.7.0-beta02@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5a88190fcedc4481ace2d6d6d0518cc8/transformed/ui-tooling-release/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5a88190fcedc4481ace2d6d6d0518cc8/transformed/ui-tooling-release/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5a88190fcedc4481ace2d6d6d0518cc8/transformed/ui-tooling-release/res" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/0f228b77f214d3cfa280797ea4cf5141/transformed/ui-tooling-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/0f228b77f214d3cfa280797ea4cf5141/transformed/ui-tooling-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/0f228b77f214d3cfa280797ea4cf5141/transformed/ui-tooling-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

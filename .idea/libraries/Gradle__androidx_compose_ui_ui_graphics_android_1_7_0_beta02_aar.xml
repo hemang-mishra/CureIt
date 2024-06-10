@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-graphics-android:1.7.0-beta02@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/fde79299171148957e6a0616b49bd9a4/transformed/ui-graphics-release/res" />
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/fde79299171148957e6a0616b49bd9a4/transformed/ui-graphics-release/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/fde79299171148957e6a0616b49bd9a4/transformed/ui-graphics-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/363e4026979d3e256fe371b9f048ee71/transformed/ui-graphics-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/363e4026979d3e256fe371b9f048ee71/transformed/ui-graphics-release/res" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/363e4026979d3e256fe371b9f048ee71/transformed/ui-graphics-release/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

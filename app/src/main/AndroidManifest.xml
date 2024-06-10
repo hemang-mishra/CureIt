@@ -18,6 +18,17 @@
         android:theme="@style/Theme.FinFlow"
         tools:targetApi="31">
         <activity
+            android:name=".PrimaryActivity"
+            android:exported="true"
+            android:label="@string/title_activity_primary"
+            android:theme="@style/Theme.FinFlow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".mood.MoodActivity"
             android:exported="false"
             android:label="@string/title_activity_mood"

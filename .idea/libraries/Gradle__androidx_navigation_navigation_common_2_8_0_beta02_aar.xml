@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.navigation:navigation-common:2.8.0-beta02@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/1fc06de368939a9db15f00b5a8652d38/transformed/navigation-common-2.8.0-beta02/res" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/1fc06de368939a9db15f00b5a8652d38/transformed/navigation-common-2.8.0-beta02/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/1fc06de368939a9db15f00b5a8652d38/transformed/navigation-common-2.8.0-beta02/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bcbd552ee48f1ceaf084ccd1472fae9c/transformed/navigation-common-2.8.0-beta02/res" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bcbd552ee48f1ceaf084ccd1472fae9c/transformed/navigation-common-2.8.0-beta02/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/bcbd552ee48f1ceaf084ccd1472fae9c/transformed/navigation-common-2.8.0-beta02/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

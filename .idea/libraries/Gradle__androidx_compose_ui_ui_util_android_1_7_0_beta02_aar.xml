@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.ui:ui-util-android:1.7.0-beta02@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/c9dbd93e2a300313003c5b124d36f91c/transformed/ui-util-release/res" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/c9dbd93e2a300313003c5b124d36f91c/transformed/ui-util-release/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/c9dbd93e2a300313003c5b124d36f91c/transformed/ui-util-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/90cf9a8513401320d8acf743dff8996b/transformed/ui-util-release/res" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/90cf9a8513401320d8acf743dff8996b/transformed/ui-util-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/90cf9a8513401320d8acf743dff8996b/transformed/ui-util-release/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

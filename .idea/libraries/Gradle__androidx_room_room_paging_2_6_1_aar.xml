@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.room:room-paging:2.6.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/21f8aa5e7879d21c4c3102b06ba3ab4d/transformed/room-paging-2.6.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/21f8aa5e7879d21c4c3102b06ba3ab4d/transformed/room-paging-2.6.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/21f8aa5e7879d21c4c3102b06ba3ab4d/transformed/room-paging-2.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/a437fdb93e19ca0364a982de727e462d/transformed/room-paging-2.6.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/a437fdb93e19ca0364a982de727e462d/transformed/room-paging-2.6.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/a437fdb93e19ca0364a982de727e462d/transformed/room-paging-2.6.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.room/room-paging/2.6.1/ea26e308515a71326d421b61b7f521b036563975/room-paging-2.6.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.room/room-paging/2.6.1/ea26e308515a71326d421b61b7f521b036563975/room-paging-2.6.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

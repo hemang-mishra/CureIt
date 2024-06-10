@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.savedstate:savedstate:1.2.1@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-4/b6ed6ac4af4a9355fc47094767b3f8f1/transformed/savedstate-1.2.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/b6ed6ac4af4a9355fc47094767b3f8f1/transformed/savedstate-1.2.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-4/b6ed6ac4af4a9355fc47094767b3f8f1/transformed/savedstate-1.2.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/59352ccb2e366c6f67f4de74c147a198/transformed/savedstate-1.2.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/59352ccb2e366c6f67f4de74c147a198/transformed/savedstate-1.2.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/59352ccb2e366c6f67f4de74c147a198/transformed/savedstate-1.2.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.1/58d4c9fd35e826d3bce813974006451ee9ba4344/savedstate-1.2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/modules-2/files-2.1/androidx.savedstate/savedstate/1.2.1/58d4c9fd35e826d3bce813974006451ee9ba4344/savedstate-1.2.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

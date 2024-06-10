@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.material:material-ripple-android:1.6.7@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/71765931862d153ebf648e6fdab0b0e6/transformed/material-ripple-release/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/71765931862d153ebf648e6fdab0b0e6/transformed/material-ripple-release/res" />
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/71765931862d153ebf648e6fdab0b0e6/transformed/material-ripple-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5fbf4695a002257d05d938c6955ab8d6/transformed/material-ripple-release/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5fbf4695a002257d05d938c6955ab8d6/transformed/material-ripple-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/5fbf4695a002257d05d938c6955ab8d6/transformed/material-ripple-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

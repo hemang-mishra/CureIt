@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-common:21.0.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/8d08a696ba58bbca08370902e6788382/transformed/firebase-common-21.0.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/8d08a696ba58bbca08370902e6788382/transformed/firebase-common-21.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/8d08a696ba58bbca08370902e6788382/transformed/firebase-common-21.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/d6f9c35bc1741d0767392c992e1033db/transformed/firebase-common-21.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/d6f9c35bc1741d0767392c992e1033db/transformed/firebase-common-21.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/d6f9c35bc1741d0767392c992e1033db/transformed/firebase-common-21.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

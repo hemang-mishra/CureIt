@@ -20,17 +20,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             SetContent(string = "Loading")
         }
-
-
         //Initializing database
         val db = Firebase.firestore
 
         val doc_ref = db.collection("Users").document("User1")
 
-        doc_ref.get().addOnSuccessListener {
-            document ->
-            if(document != null){
-                setContent{
+        doc_ref.get().addOnSuccessListener { document ->
+            if (document != null) {
+                setContent {
                     SetContent(string = document.data?.get("born").toString())
                 }
             }

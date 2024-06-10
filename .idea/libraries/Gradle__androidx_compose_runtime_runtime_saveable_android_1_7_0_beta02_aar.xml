@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.compose.runtime:runtime-saveable-android:1.7.0-beta02@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/481061d7efd76b6f97d0b05e5d53317a/transformed/runtime-saveable-release/res" />
-      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/481061d7efd76b6f97d0b05e5d53317a/transformed/runtime-saveable-release/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/481061d7efd76b6f97d0b05e5d53317a/transformed/runtime-saveable-release/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/d622f7b73257b23056919665e77758e5/transformed/runtime-saveable-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/d622f7b73257b23056919665e77758e5/transformed/runtime-saveable-release/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../androidgradle/androidgradle2/caches/transforms-4/d622f7b73257b23056919665e77758e5/transformed/runtime-saveable-release/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
